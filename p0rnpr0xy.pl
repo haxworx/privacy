@@ -36,6 +36,8 @@ sub ProxyTime {
 
 				if (length($url)) {
 					print "URL is $url\n";
+				} else {
+					exit(1 << 8);
 				}
 			}	
 
